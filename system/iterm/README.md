@@ -2,7 +2,11 @@
 ## Installation
 Install using Homebrew.
 
-`brew install --cask iterm2`
+```
+# install iterm
+brew install --cask iterm2
+```
+
 
 ## Sync configs
 ```
