@@ -45,10 +45,10 @@ export PATH="$HOME/.cargo/bin:$PATH"
 
 # Java versions
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
-export JAVA_10_HOME=$(/usr/libexec/java_home -v10)
+export JAVA_13_HOME=$(/usr/libexec/java_home -v13)
 
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
-alias java10='export JAVA_HOME=$JAVA_10_HOME'
+alias java13='export JAVA_HOME=$JAVA_13_HOME'
 
 #default java8
 export JAVA_HOME=$JAVA_8_HOME
