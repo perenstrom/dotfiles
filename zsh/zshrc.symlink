@@ -1,0 +1,56 @@
+#!/bin/zsh
+
+# Paths and variables
+export ZSH=$HOME/.oh-my-zsh
+
+# Zsh settings
+ZSH_THEME="robbyrussell"
+plugins=(git)
+
+# Load Oh-My-Zsh
+source $ZSH/oh-my-zsh.sh
+
+# GENERAL
+alias ll="ls -la"
+alias ..="cd .."
+
+# PERSONAL
+alias gtpetersen="cd ~/Personal/Projects/petersenstrom-project/petersenstrom"
+alias sasspetersen="sass --watch dev/sass:www/styles"
+
+alias gtmahjong="cd ~/Personal/Projects/mah-jong-scorer-project/mah-jong-scorer"
+alias sassmahjong2="sass --watch layout2/sass:layout2"
+
+alias sshoderland="ssh -v -i ~/.ssh/per_oderland tloggse@butsu.oderland.com"
+
+alias gtp="cd ~/Personal/projects/"
+alias gtoscar="cd ~/Personal/projects/oscar-night-project/oscar-night"
+
+alias lifeinthevillage="cd ~/Personal/litv-server && ./LaunchServer.sh"
+alias sevtech="cd ~/Personal/Sevtech_Ages_Server_3.1.2 && ./ServerStart.sh"
+alias javaversions="cd /Library/Java/JavaVirtualMachines && ll"
+alias enig="cd ~/Personal/Enigmatica2Server-1.77 && bash ./ServerStartLinux.sh"
+alias stoneblock="~/minecraft/FTBPresentsStoneblock2Server_1.16.0/ServerStart.sh"
+
+
+alias nåm="npm"
+alias nrr="npm run rebuild"
+
+# NODE NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+export PATH="./node_modules/.bin:${PATH}"
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Java versions
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
+export JAVA_10_HOME=$(/usr/libexec/java_home -v10)
+
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias java10='export JAVA_HOME=$JAVA_10_HOME'
+
+#default java8
+export JAVA_HOME=$JAVA_8_HOME
+
+source ~/.bash_profile
