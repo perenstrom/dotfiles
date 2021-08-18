@@ -1,0 +1,7 @@
+init-author-name  = "Per Enström"
+init-author-email = "enstrom.per@gmail.com"
+init-author-url   = "https://www.perenstrom.com/"
+init-license      = "MIT"
+init-version      = "0.1.0"
+
+loglevel          = "info"
