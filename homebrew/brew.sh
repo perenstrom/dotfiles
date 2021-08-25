@@ -15,6 +15,9 @@ brew tap adoptopenjdk/openjdk
 brew install adoptopenjdk8
 brew install adoptopenjdk13
 
+# Install Firebase
+brew install firebase-cli
+
 # Install NVM
 brew install nvm
 mkdir ~/.nvm
