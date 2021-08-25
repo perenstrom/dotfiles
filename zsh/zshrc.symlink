@@ -17,9 +17,11 @@ alias ll="ls -la"
 alias ..="cd .."
 alias nåm="npm"
 alias nrr="npm run rebuild"
+alias nin="npm install"
 
 # Other
-source $dotfiles/**/aliases-etc/*.sh
+source $dotfiles/**/aliases-etc/personal.sh
+source $dotfiles/**/aliases-etc/bontouch.sh
 
 # Secrets
 source $dotfiles/.local-secrets.sh
