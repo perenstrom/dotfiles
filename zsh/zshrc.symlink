@@ -17,6 +17,7 @@ alias ll="ls -la"
 alias ..="cd .."
 alias nåm="npm"
 alias nrr="npm run rebuild"
+alias nrs="npm run serve"
 alias nin="npm install"
 
 # Other
