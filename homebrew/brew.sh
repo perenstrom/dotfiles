@@ -15,8 +15,9 @@ brew tap adoptopenjdk/openjdk
 brew install adoptopenjdk8
 brew install adoptopenjdk13
 
-# Install Firebase
+# Install Hosting CLIs
 brew install firebase-cli
+brew install vercel-cli
 
 # Install NVM
 brew install nvm
