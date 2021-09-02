@@ -15,6 +15,9 @@ brew tap adoptopenjdk/openjdk
 brew install adoptopenjdk8
 brew install adoptopenjdk13
 
+# Install Mint
+brew install mint
+
 # Install Hosting CLIs
 brew install firebase-cli
 brew install vercel-cli
