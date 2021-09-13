@@ -42,6 +42,10 @@ function dax:swish-demo() {
   echo "Logging 30min for Swish - Misc: #internal-demo"
   dax-custom-log ${DAX_PROJECT_SWISH_MISC} 30m "#internal-demo" $1
 }
+function dax:swish-friday() {
+  echo "Logging 30min for Swish - Misc: #swish-friday"
+  dax-custom-log ${DAX_PROJECT_SWISH_MISC} 30m "#swish-friday" $1
+}
 function dax:swish-portal() {
   echo "Logging ${1} for Swish - Portal: ${2}"
   dax-custom-log ${DAX_PROJECT_SWISH_PORTAL} $1 $2 $3
