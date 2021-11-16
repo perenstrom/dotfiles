@@ -1,3 +1,6 @@
+# Add brew to path for this session
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Tap fonts
 brew tap homebrew/cask-fonts
 
