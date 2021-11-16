@@ -3,7 +3,7 @@ These are my dotfiles and install scripts for setting up a new system.
 
 ## Installation
 1. Install git by typing `git` in terminal
-2. Clone this repository with `git clone https://github.com/perenstrom/dotfiles.git`
+2. Clone this repository with `git clone https://github.com/perenstrom/dotfiles.git .dotfiles`
 3. Run [Homebrew installation](/homebrew)
 4. Run [zsh installation](/zsh)
 5. Setup [Node JS](/nodejs)
