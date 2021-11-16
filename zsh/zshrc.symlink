@@ -35,6 +35,9 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="./node_modules/.bin:${PATH}"
 export PATH="$HOME/.cargo/bin:$PATH"
 
+# Homebrew to path
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Java versions
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 export JAVA_13_HOME=$(/usr/libexec/java_home -v13)
