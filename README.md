@@ -2,6 +2,7 @@
 These are my dotfiles and install scripts for setting up a new system.
 
 ## Installation
+1. Install git by typing `git` in terminal
 1. Run [Homebrew installation](/homebrew)
 1. Run [zsh installation](/zsh)
 1. Setup [Node JS](/nodejs)
