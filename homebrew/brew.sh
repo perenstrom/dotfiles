@@ -19,10 +19,6 @@ brew install mint
 brew install firebase-cli
 brew install vercel-cli
 
-# Install NVM
-brew install nvm
-mkdir ~/.nvm
-
 # Install apps
 brew install --cask gitkraken
 brew install --cask slack
