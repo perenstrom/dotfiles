@@ -25,6 +25,7 @@ alias nåm="npm"
 alias nrr="npm run rebuild"
 alias nrs="npm run serve"
 alias nin="npm install"
+alias serveOut="serve -p 52267"
 
 # Other
 source $dotfiles/**/aliases-etc/personal.sh

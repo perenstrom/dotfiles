@@ -40,3 +40,5 @@ brew install --cask plex
 brew install --cask postman
 brew install --cask vlc
 brew install --cask cyberduck
+brew install --cask spotify
+brew install --cask the-unarchiver

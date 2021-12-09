@@ -3,6 +3,8 @@
 # Bontouch
 # Swish
 alias gtsst="cd ~/Projects/Bontouch/Swish/support-tool"
+alias packageBanktest="cd dist/banktest && zip -r sst-banktest-$(date +'%Y-%m-%d').zip . && ..."
+alias packageProd="cd dist/production && zip -r sst-production-$(date +'%Y-%m-%d').zip . && ..."
 
 # Dax CLI
 DAX_PROJECT_BONTOUCH_AB="77904"
