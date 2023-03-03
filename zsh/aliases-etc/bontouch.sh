@@ -3,6 +3,7 @@
 # Bontouch
 # Swish
 alias gtsst="cd ~/Projects/Bontouch/Swish/support-tool"
+alias gts="cd ~/Projects/Bontouch/Swish"
 alias packageBanktest="cd dist/banktest && zip -r sst-banktest-$(date +'%Y-%m-%d').zip . && ..."
 alias packageProd="cd dist/production && zip -r sst-production-$(date +'%Y-%m-%d').zip . && ..."
 

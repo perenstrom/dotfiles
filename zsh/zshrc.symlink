@@ -24,7 +24,10 @@ alias ..="cd .."
 alias nåm="npm"
 alias nrr="npm run rebuild"
 alias nrs="npm run serve"
+alias nrd="npm run dev"
 alias nin="npm install"
+alias nvi="nvm use && npm install"
+alias nvs="nvm use && npm install && npm run serve"
 alias serveOut="serve -p 52267"
 
 # Other
@@ -40,6 +43,13 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 export PATH="./node_modules/.bin:${PATH}"
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# Python
+PYTHON_BIN_PATH="$(python3 -m site --user-base)/bin"
+export PATH="$PATH:$PYTHON_BIN_PATH"
+
+# Postgres
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:${PATH}"
 
 # Java versions
 export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
