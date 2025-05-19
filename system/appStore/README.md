@@ -1,5 +1,9 @@
 Install the following apps from the app store:
-* PasteBot
-* Plume - Light Menubar Note
-* Screenbrush
-* Magnet
+
+- Plume - Light Menubar Note
+- Screenbrush
+- In your face meeting reminder
+- ForScore
+- QuickMidi
+- MacFamilyTree
+- Amphetamine
