@@ -32,7 +32,7 @@ alias serveOut="serve -p 52267"
 
 # Other
 source $dotfiles/**/aliases-etc/personal.sh
-source $dotfiles/**/aliases-etc/bontouch.sh
+source $dotfiles/**/aliases-etc/ilp.sh
 
 # Secrets
 source $dotfiles/.local-secrets.sh
